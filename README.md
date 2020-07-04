@@ -1,4 +1,4 @@
-# ShimmerRecyclerView
+# Shimmer RecyclerView
 
 [![Platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0.html)
@@ -53,6 +53,22 @@ Following are the attributes and methods to initialise the demo views.
 |```app:shimmer_demo_view_holder_item_background``` | ``` - ``` | Color or an xml drawable for the ViewHolder background if you want to achieve the second type of shimmer effect. |
 |```app:shimmer_demo_reverse_animation``` | ``` - ``` | Defines whether the animation should be reversed. If it is true, then the animation starts from the right side of the View. Default value is false. |
 
+# Setup
+
+- Add the following configuration in your build.gradle file.
+
+```gradle
+repositories {
+    ...
+    maven { url "https://jitpack.io" }
+    ...
+}
+
+dependencies {
+
+    implementation 'com.github.sharish:ShimmerRecyclerView:v1.3'
+}
+```
 
 # Usage
 
@@ -77,22 +93,6 @@ where ```@layout/layout_demo_grid``` refers to your sample layout that should be
 ```java
 ShimmerRecyclerView shimmerRecycler = (ShimmerRecyclerView) findViewById(R.id.shimmer_recycler_view);
 shimmerRecycler.showShimmerAdapter();
-```
-
-Adding to your project
-------------------------
-
-- Add the following configuration in your build.gradle file.
-
-```gradle
-repositories {
-    jcenter()
-    maven { url "https://jitpack.io" }
-}
-
-dependencies {
-    implementation 'com.github.sharish:ShimmerRecyclerView:v1.3'
-}
 ```
 
 # License
