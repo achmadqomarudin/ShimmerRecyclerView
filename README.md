@@ -14,7 +14,11 @@ Repo to demonstrate Shimmerring effect for RecyclerView in Android. This is a fo
 
 # Demo App
 
-[Demo Download](https://github.com/achmadqomarudin/ShimmerRecyclerView/blob/master/screenshots/app-demo.apk)
+<p align="center">
+  <a href="https://github.com/achmadqomarudin/ShimmerRecyclerView/releases/latest/download/app-demo.apk">
+    <img src="https://www.inspirefm.org/wp-content/uploads/button-apk.png" height="100">
+  </a>
+</p>
 
 There are two kinds of shimmer animation which you can see here:
 
